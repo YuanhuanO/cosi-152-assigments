@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://bond-building.com/wp-content/uploads/sites/3/3145D_5436r_1280x700.jpg");
+    filter: blur(10%);
+    filter: brightness(95%);
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #003478;
+    padding: 1rem;
+    
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:2%;
+    color: #003478;
+}
+
+
+.headlogo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+    float: left;
+}
+
+.saa {
+    color: #003478;
+}
+  
+nav {
+    background-color: #003478;
+    color: #fff;
+    display: flex;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.clickme {
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(4, 4, 4);
+}
+
+.intro {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.571);
+    padding: 20px;
+    flex-direction: column;
+    margin-right:3%;
+}
+
+.pic {
+    width: 10%;
+    height: auto;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+
+main {
+    display:flex;
+    padding: 1rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #003478;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}

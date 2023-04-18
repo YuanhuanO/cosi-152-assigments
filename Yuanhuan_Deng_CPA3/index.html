@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Brandeis Students and Alumni Association</title>
+  </head>
+  <body>
+    <header>
+        <img src="BrandeisLogo.png" alt="Brandeis Logo" class="headlogo">
+        <div id="head">
+            <h1 class="name">Brandeis University</h1>
+            <h2 class="saa">Students and Alumni Association</h2>
+        </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button id="clickme">Enter Your DeisLife</button>
+      <script>
+        document.getElementById("clickme").addEventListener("click", changeColor);
+        function changeColor() {
+        const clickMe = document.getElementById("clickme");
+        clickMe.style.color = "#003478"; }
+      </script>
+    </nav>
+    <h2 class="welcome">Welcome to Brandeis Students and Alumni Association</h2>
+    <main>
+      <section class="intro">
+        <article>
+            <p>Brandeis University is a private research university with a liberal arts focus located 
+                in Waltham, Massachusetts. Our Students and Alumni Association aims to connect 
+                current students, recent graduates, and alumni through events, job opportunities, 
+                and more.</p>
+        </article>
+      </section>
+      <section class="intro">
+        <article>
+            <p>Alumni and affiliates of the university include former first lady of the United States Eleanor Roosevelt, Nobel Prize laureate Roderick MacKinnon and Fields Medalist Edward Witten, as well as foreign heads of state, congressmen, governors, diplomats, and recipients of the Nobel Prize, Pulitzer Prize, Academy Award, Emmy Award, and MacArthur Fellowship. </p>
+        </article>
+      </section>
+      <section class="pic">
+        <article>
+            <img src="pic.jpg" alt="Brandeis">
+        </article>
+      </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2023 Brandeis University
+            <a href="https://www.facebook.com/brandeisuniversity">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" height = 15px width = 15px alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/brandeisuniversity/">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Instagram-1024.png"height = 15px width = 15px alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/school/brandeis-university/">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"height = 15px width = 15px alt="Linkedin">
+            </a>
+            <a href="https://www.youtube.com/@brandeis">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height = 12px width = 16px href = "https://www.linkedin.com/in/hy22/" alt="YouTube">
+            </a>
+            <a href="https://twitter.com/BrandeisU">
+                <img src="https://cdn0.iconfinder.com/data/icons/shift-free/32/Twitter-1024.png"height = 15px width = 15px alt="twitter">
+            </a>
+        </p>
+    </footer>
+  </body>
+</html>
