@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/490747664/photo/gray-doggy-tile-pattern-repeat-background.jpg?b=1&s=170667a&w=0&k=20&c=H6SZuhK9oigNGww8qa60fSHoODDpiPQe-916-Pc7FeE=");
+    ");
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Monospace;
+    font-size: 44px;
+  }
+  
+  h2 {
+    font-family: Monospace;
+    font-size: 30px;
+    letter-spacing:0.5px;
+    word-spacing:0px;
+  }
+
+  p {
+    font-family: Monospace;
+    font-size: 20px;
+    letter-spacing:0.5px;
+  }
+
+  ul {
+    font-family: Monospace;
+    font-size: 20px;
+    letter-spacing:0.5px;
+  }
+
+  th {
+    font-family: Monospace;
+    font-size: 20px;
+  }
+  td {
+    font-family: Monospace;
+    font-size: 20px;
+  }

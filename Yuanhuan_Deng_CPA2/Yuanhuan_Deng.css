@@ -1,0 +1,105 @@
+/* Body and default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/490747664/photo/gray-doggy-tile-pattern-repeat-background.jpg?b=1&s=170667a&w=0&k=20&c=H6SZuhK9oigNGww8qa60fSHoODDpiPQe-916-Pc7FeE=");
+  }
+  
+  /* Header */
+  header {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  p {
+    margin-left: 20px;
+  }
+  
+  .profile-pic {
+    float: left;
+    width: 100px;
+    height: "auto";
+    margin-right: 20px;
+  }
+  
+  .header-name {
+    text-align: center;
+    font-family: Monospace;
+    font-size: 44px;
+    color:rgb(241, 29, 124);
+    width:max-content;
+    float: right;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: rgb(223, 213, 177);
+    padding: 10px 20px;
+    font-size: 22px;
+    font-family: Monospace;
+    color: rgb(241, 29, 124);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Monospace;
+    font-size: 20px;
+    letter-spacing:0.5px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  /* Main Content */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: rgb(209, 195, 145);
+  }
+  
+  .hobbies, .movies, .food {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.571);
+    padding: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+
+  th {
+    font-family: Monospace;
+    font-size: 20px;
+    width: 50%;
+    color: rgb(209, 195, 145);
+    background-color: rgba(255, 255, 255, 0.571);
+  }
+
+  td {
+    font-family: Monospace;
+    font-size: 20px;
+    width: 50%;
+    color: rgb(209, 195, 145);
+    background-color: rgba(255, 255, 255, 0.571);
+  }
+
+  /* .content-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  /* Footer */
+  footer {
+    background-color:rgb(223, 213, 177);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
